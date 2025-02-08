@@ -4,7 +4,7 @@ import './App.css';
 
 const App = () => {
   const [movies, setMovies] = useState([]);
-  const apikey = 'b1f8474699224ee081d207b868d8e8cb';
+  const apikey = 'รหัสAPI';
 
   const fetchMovies = async () => {
     const url = `https://api.themoviedb.org/3/discover/movie?api_key=${apikey}&include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc`;
